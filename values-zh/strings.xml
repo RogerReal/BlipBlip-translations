@@ -35,7 +35,7 @@
     <string name="next_notification_sat">下次通知将在周六的 %1$s</string>
     <string name="next_notification_sun">下次通知将在周日的 %1$s</string>
     <string name="next_notification_off">关闭</string>
-    <string name="next_notification_never">冲突设置</string>
+    <string name="next_notification_never">设置冲突</string>
     <string name="upcoming_notifications">即将到来的通知</string>
     <string name="day_today">今天</string>
     <string name="day_tomorrow">明天</string>
@@ -65,15 +65,15 @@
     <string name="sound_ships_bell">汽笛</string>
     <string name="sound_double_ships_bell">两声汽笛</string>
     <string name="sound_cuckoo">布谷鸟</string>
-    <string name="sound_watch_beep">Watch beep</string> <!-- TODO translate -->
-    <string name="sound_big_ben">Big Ben</string> <!-- TODO translate -->
-    <string name="sound_big_ben_strikes">Big Ben Strikes</string> <!-- TODO translate -->
-    <string name="sound_bubble">Bubble</string> <!-- TODO translate -->
-    <string name="sound_bird">Bird %1$s</string> <!-- TODO translate -->
-    <string name="sound_cartoon">Cartoon %1$s</string> <!-- TODO translate -->
-    <string name="sound_cat">Cat %1$s</string> <!-- TODO translate -->
-    <string name="sound_dog">Dog %1$s</string> <!-- TODO translate -->
-    <string name="sound_rooster">Rooster</string> <!-- TODO translate -->
+    <string name="sound_watch_beep">电子表</string> <!-- TODO translate -->
+    <string name="sound_big_ben">大本钟</string> <!-- TODO translate -->
+    <string name="sound_big_ben_strikes">大本钟鸣</string> <!-- TODO translate -->
+    <string name="sound_bubble">泡泡</string> <!-- TODO translate -->
+    <string name="sound_bird">鸟 %1$s</string> <!-- TODO translate -->
+    <string name="sound_cartoon">卡通 %1$s</string> <!-- TODO translate -->
+    <string name="sound_cat">猫 %1$s</string> <!-- TODO translate -->
+    <string name="sound_dog">狗 %1$s</string> <!-- TODO translate -->
+    <string name="sound_rooster">公鸡</string> <!-- TODO translate -->
 
     <!-- Volume -->
     <string name="text_seek_volume">音量</string>
@@ -148,7 +148,7 @@
     <string name="light_up_screen_title">通知点亮屏幕</string>
     <string name="light_up_screen_off">不点亮</string>
     <string name="light_up_screen_on">点亮</string>
-    <string name="warn_light_up_screen_disable">停用此设置可能会导致应用在5.0.1（尤其是三桑手机）上不正常工作，如果你碰到了问题，请重新打开此设置</string> <!-- Warning shown on android 5.0.1 when disabling option "Light up screen on notification" -->
+    <string name="warn_light_up_screen_disable">停用此设置可能会导致应用在5.0.1（尤其是三星手机）上不正常工作，如果你碰到了问题，请重新打开此设置</string> <!-- Warning shown on android 5.0.1 when disabling option "Light up screen on notification" -->
 
     <!-- While Music -->
     <string name="while_music">音乐播放时不通知</string>
@@ -201,10 +201,10 @@
     <string name="pref_vibrate_wear_title">在手表上振动</string>
     <string name="pref_vibrate_wear_on">如果振动开启，在连接的Android Wear上也振动</string>
     <string name="pref_vibrate_wear_off">不要在Android Wear上振动</string>
-    <string name="pref_vibrate_wearable_title">@string/pref_vibrate_wear_title</string> <!-- TODO translate "Vibrate on connected device"-->
-    <string name="pref_vibrate_wearable_on">@string/pref_vibrate_wear_on</string> <!-- TODO translate "If vibration is enabled vibrate also on connected wearable device (e.g. smart watch)"--> <!-- not used anymore -->
-    <string name="pref_vibrate_wearable_on2">If vibration is enabled vibrate also on connected wearable device (e.g. smart watch). Requires adding system notification.</string> <!-- TODO translate -->
-    <string name="pref_vibrate_wearable_off">@string/pref_vibrate_wear_off</string> <!-- TODO translate "Do not vibrate on connected wearable device"-->
+    <string name="pref_vibrate_wearable_title">连接设备已开启振动</string> <!-- TODO translate "Vibrate on connected device"-->
+    <string name="pref_vibrate_wearable_on">如果开启振动，那么也会在穿戴设备上开启(比如智能手表)</string> <!-- TODO translate "If vibration is enabled vibrate also on connected wearable device (e.g. smart watch)"--> <!-- not used anymore -->
+    <string name="pref_vibrate_wearable_on2">如果开启振动，那么也会在穿戴设备上开启(比如智能手表)，并且需要系统级通知</string> <!-- TODO translate -->
+    <string name="pref_vibrate_wearable_off">不要在穿戴设备上开启振动</string> <!-- TODO translate "Do not vibrate on connected wearable device"-->
 
     <!-- Vibrate on Main Device -->
     <string name="pref_vibrate_on_main_device">在主设备上振动</string> <!-- Translation note: "device" is used because it can be phone or tablet. Related with pref_vibrate_wear_title option. -->
@@ -315,8 +315,8 @@
     <!-- Menu - Share -->
     <string name="action_share">分享应用</string>
     <string name="share_chooser_title">分享该应用!</string>
-    <string name="share_title">Check out BlipBlip hourly chime app!</string> <!-- TODO translate -->
-    <string name="share_text">Check out BlipBlip hourly chime android app</string> <!-- TODO translate -->
+    <string name="share_title">快来看看可以整点报时的应用——BlipBlip！</string> <!-- TODO translate -->
+    <string name="share_text">快来看看可以整点报时的Android应用——BlipBlip！</string> <!-- TODO translate -->
 
     <!-- Menu - Rate -->
     <string name="action_rate">评分</string>
@@ -340,7 +340,7 @@
     <string name="about_version">版本:</string>
     <string name="about_authors">开发者</string>
     <string name="about_coding">程序</string>
-    <string name="about_testing">Testing</string> <!-- TODO translate -->
+    <string name="about_testing">测试中</string> <!-- TODO translate -->
     <string name="about_graphics">美工</string>
     <string name="about_translations">翻译</string>
     <string name="about_send_feedback">发送反馈</string>
@@ -381,27 +381,27 @@
     <!-- check which quantities and how should be used for given language here http://www.unicode.org/cldr/charts/29/supplemental/language_plural_rules.html -->
     <!-- Uncomment or add proper "zero", "two", "few" or "many" item if needed for your language -->
     <plurals name="number_of_hours">
-        <item quantity="other">%d hours</item>
+        <item quantity="other">%d 时</item>
     </plurals>
     <plurals name="number_of_minutes">
-        <item quantity="other">%d minutes</item>
+        <item quantity="other">%d 分</item>
     </plurals>
     <plurals name="number_of_seconds">
-        <item quantity="other">%d seconds</item>
+        <item quantity="other">%d 秒</item>
     </plurals>
     <plurals name="repeat_every_x_hours"> <!-- "X hours" as in "Repeat every X hours" is different in some languages (e.g. Polish) from regular "X hours" -->
-        <item quantity="other">%d hours</item>
+        <item quantity="other">%d 小时</item>
     </plurals>
     <plurals name="repeat_every_x_minutes">
-        <item quantity="other">%d minutes</item>
+        <item quantity="other">%d 分钟</item>
     </plurals>
     <plurals name="repeat_every_x_seconds">
-        <item quantity="other">%d seconds</item>
+        <item quantity="other">%d 秒</item>
     </plurals>
 
     <plurals name="repeat_number_of_times">
-        <item quantity="one">%d time</item>
-        <item quantity="other">%d times</item>
+        <item quantity="one">%d 次</item>
+        <item quantity="other">%d 次</item>
     </plurals>
 
     <string name="pref_reset_accuracy_params">Reset parameters</string> <!-- TODO translate -->
